@@ -5,9 +5,8 @@ import "./globals.css";
 const inter = Mitr({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Simeon Arabov - Work Resume",
-  description:
-    "Daily winner gets the entire prize pool! The first FIAT and WEB3 integrated lottery game in the galaxy!",
+  title: "Chainlink Tainwind CSS Effect",
+  description: "",
 };
 
 export default function RootLayout({
