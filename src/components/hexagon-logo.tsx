@@ -13,7 +13,7 @@ export const HexagonLogo = () => {
   const [showLogo, setShowLogo] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
+    const triggerAnimation = () => {
       setAnimationClasses([
         "fall-bottom-left",
         "fall-top-left",
@@ -22,14 +22,22 @@ export const HexagonLogo = () => {
         "fall-left",
         "fall-right",
       ]);
-    }, 100);
 
-    // Set another timeout to show the logo after the hexagon animation completes
-    setTimeout(() => {
-      setShowLogo(true);
-    }, 600); // Adjust this timing based on the duration of the hexagon animation
+      setTimeout(() => {
+        setShowLogo(true);
+      }, 500);
+
+      setTimeout(() => {
+        setAnimationClasses(["", "", "", "", "", ""]);
+        setShowLogo(false);
+      }, 3000);
+    };
+
+    triggerAnimation();
+    const intervalId = setInterval(triggerAnimation, 4000);
+
+    return () => clearInterval(intervalId);
   }, []);
-
   return (
     <div className="hexagon">
       <div
