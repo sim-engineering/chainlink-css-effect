@@ -62,8 +62,8 @@ export const HexagonLogo = () => {
       <style jsx>{`
         .hexagon {
           position: relative;
-          width: 250px;
-          height: 250px;
+          width: 500px;
+          height: 500px;
         }
 
         .hex-side {
