@@ -112,7 +112,7 @@ export const HexagonLogo = () => {
         .fall-bottom-left {
           bottom: 0;
           right: 0;
-          animation: fall-bottom-left 0.5s ease forwards;
+          animation: fall-bottom-left 1.5s ease forwards;
         }
 
         @keyframes fall-bottom-left {
@@ -129,7 +129,7 @@ export const HexagonLogo = () => {
         .fall-top-left {
           top: 0;
           right: 0;
-          animation: fall-top-left 0.5s ease forwards;
+          animation: fall-top-left 1.5s ease forwards;
         }
 
         @keyframes fall-top-left {
@@ -146,7 +146,7 @@ export const HexagonLogo = () => {
         .fall-top-right {
           bottom: 0;
           left: 0;
-          animation: fall-top-right 0.5s ease forwards;
+          animation: fall-top-right 1.5s ease forwards;
         }
 
         @keyframes fall-top-right {
@@ -163,7 +163,7 @@ export const HexagonLogo = () => {
         .fall-bottom-right {
           top: 1;
           left: 1;
-          animation: fall-bottom-right 0.5s ease forwards;
+          animation: fall-bottom-right 1.5s ease forwards;
         }
 
         @keyframes fall-bottom-right {
@@ -180,7 +180,7 @@ export const HexagonLogo = () => {
         .fall-right {
           bottom: 0;
           left: 0;
-          animation: fall-right 0.5s ease forwards;
+          animation: fall-right 1.5s ease forwards;
         }
 
         @keyframes fall-right {
@@ -197,7 +197,7 @@ export const HexagonLogo = () => {
         .fall-left {
           bottom: 0;
           left: 0;
-          animation: fall-left 0.5s ease forwards;
+          animation: fall-left 1.5s ease forwards;
         }
 
         @keyframes fall-left {
@@ -216,7 +216,7 @@ export const HexagonLogo = () => {
           top: 10%;
           left: 50%;
           transform: translate(-50%, -50%);
-          animation: show-logo 0.5s ease forwards;
+          animation: show-logo 1.5s ease forwards;
         }
 
         .logo {
